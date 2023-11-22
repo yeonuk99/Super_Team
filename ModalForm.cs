@@ -44,7 +44,11 @@ namespace Project
 
                 if (Final_Price > 15) { MessageBox.Show("15달러가 넘어갔습니다."); }
             }
-            else { MessageBox.Show("15달러가 넘어갔습니다."); }
+            else { 
+                MessageBox.Show("15달러가 넘어갔습니다."); 
+                Player_Price = 0;
+            
+            }
 
 
         }
